@@ -17,6 +17,7 @@ class QueryBuilderDefinition
   const COMPARATOR_LESS_OR_EQUAL          = 'lte';
   const COMPARATOR_BETWEEN                = 'bet';
   const COMPARATOR_NOT_BETWEEN            = 'nbet';
+  const COMPARATOR_MULTIPLE_OF            = 'multipleof';
   const COMPARATOR_LIKE                   = 'like';
   const COMPARATOR_NOT_LIKE               = 'nlike';
   const COMPARATOR_LIKE_IN                = 'likein';
