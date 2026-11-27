@@ -36,6 +36,7 @@
   QueryBuilderConstants.COMPARATOR_LESS_EQUAL = 'lte';
   QueryBuilderConstants.COMPARATOR_BETWEEN = 'bet';
   QueryBuilderConstants.COMPARATOR_NOT_BETWEEN = 'nbet';
+  QueryBuilderConstants.COMPARATOR_MULTIPLE_OF = 'multipleof';
   QueryBuilderConstants.COMPARATOR_LIKE = 'like';
   QueryBuilderConstants.COMPARATOR_NOT_LIKE = 'nlike';
   QueryBuilderConstants.COMPARATOR_LIKE_IN = 'likein';
@@ -479,6 +480,7 @@
     this.setComparatorName(QueryBuilderConstants.COMPARATOR_LESS_EQUAL, 'Less Than or Equal to');
     this.setComparatorName(QueryBuilderConstants.COMPARATOR_BETWEEN, 'Between');
     this.setComparatorName(QueryBuilderConstants.COMPARATOR_NOT_BETWEEN, 'Not Between');
+    this.setComparatorName(QueryBuilderConstants.COMPARATOR_MULTIPLE_OF, 'Multiple Of');
     this.setComparatorName(QueryBuilderConstants.COMPARATOR_LIKE_IN, 'Like In');
     this.setComparatorName(QueryBuilderConstants.COMPARATOR_NOT_LIKE_IN, 'Not Like In');
     this.setComparatorName(QueryBuilderConstants.COMPARATOR_LIKE, 'Like');

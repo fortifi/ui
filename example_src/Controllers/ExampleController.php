@@ -98,6 +98,14 @@ class ExampleController extends LayoutController
     );
     $definitions->addDefinition($between);
 
+    $multipleOf = new QBD('multiple_of_test', 'Multiple Of Test', QBDT::NUMBER);
+    $multipleOf->setComparators(
+      [
+        QBD::COMPARATOR_MULTIPLE_OF,
+      ]
+    );
+    $definitions->addDefinition($multipleOf);
+
     $between = new QBD('timestamp_day', 'Timestamp (Day)', QBDT::TIMESTAMP_DAY);
     $between->setComparators(
       [
